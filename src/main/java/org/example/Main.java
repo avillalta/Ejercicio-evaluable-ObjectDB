@@ -19,10 +19,10 @@ public class Main {
 
         // HISTORIA 3: Añadir comentarios a usuarios
         System.out.println("Añadiendo comentarios...");
-        service.añadirComentarioAUsuario("maria@example.com", "¡Gran película!", 9);
-        service.añadirComentarioAUsuario("juan@example.com", "Meh, estuvo bien.", 7);
-        service.añadirComentarioAUsuario("juan@example.com", "No me gustó.", 3);
-        service.añadirComentarioAUsuario("admin@example.com", "¡La hostia!", 10);
+        service.añadirComentarioAUsuario("maria@mail.com", "¡Gran película!", 9);
+        service.añadirComentarioAUsuario("juan@mail.com", "Meh, estuvo bien.", 7);
+        service.añadirComentarioAUsuario("juan@mail.com", "No me gustó.", 3);
+        service.añadirComentarioAUsuario("admin@mail.com", "¡La hostia!", 10);
 
         // HISTORIA 2: Listar los mejores comentarios
         System.out.println("Listando los mejores comentarios...");
@@ -34,8 +34,8 @@ public class Main {
         }
 
         // HISTORIA 4: Eliminar un usuario
-        System.out.println("Eliminando usuario juan@example.com...");
-        service.eliminarUsuario("juan@example.com");
+        System.out.println("Eliminando usuario juan@mail.com...");
+        service.eliminarUsuario("juan@mail.com");
 
         // Verificar que se eliminó el usuario y sus comentarios
         System.out.println("Comentarios después de eliminar usuario:");
